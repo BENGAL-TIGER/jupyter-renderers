@@ -26,8 +26,8 @@ RegisterHTMLHandler(browserAdaptor());
 
 // Override dynamically generated fonts in favor
 // of our font css that is picked up by webpack.
-// class emptyFont extends TeXFont {}
-// (emptyFont as any).defaultFonts = {};
+class emptyFont extends TeXFont {}
+(emptyFont as any).defaultFonts = {};
 
 /**
  * The MathJax 3 Typesetter.
