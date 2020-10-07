@@ -1,6 +1,6 @@
 {
-  "name": "@marcucius/mathjax3_plus_numbering",
-  "version": "3.0.0",
+  "name": "@marcucius/mathjax3-plus-numbering",
+  "version": "1.0.0",
   "description": "MathJax 3 math renderer for JupyterLab, with automatic AMS numbering of equations.",
   "keywords": [
     "jupyter",
